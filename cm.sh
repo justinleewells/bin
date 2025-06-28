@@ -1,2 +1,2 @@
 #!/bin/bash
-cmake CMakeLists.txt
+cmake --toolchain=~/vcpkg/scripts/buildsystems/vcpkg.cmake .
